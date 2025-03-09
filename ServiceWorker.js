@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Typingstem-1.0";
 const contentToCache = [
-    "Build/タイピングゲームフィールド.loader.js",
-    "Build/タイピングゲームフィールド.framework.js.br",
-    "Build/タイピングゲームフィールド.data.br",
-    "Build/タイピングゲームフィールド.wasm.br",
+    "https://yonegan.com/unity/Build/typing.loader.js",
+    "https://yonegan.com/unity/Build/typing.framework.js.br",
+    "https://yonegan.com/unity/Build/typing.data.br",
+    "https://yonegan.com/unity/Build/typing.wasm.br",
     "TemplateData/style.css"
 
 ];

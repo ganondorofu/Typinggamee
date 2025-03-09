@@ -56,18 +56,21 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/タイピングゲームフィールド.loader.js";
+      var buildUrl = "https://yonegan.com/unity/Build";
+      var loaderUrl = buildUrl + "/typing.loader.js";
       var config = {
-        dataUrl: buildUrl + "/タイピングゲームフィールド.data.br",
-        frameworkUrl: buildUrl + "/タイピングゲームフィールド.framework.js.br",
-        codeUrl: buildUrl + "/タイピングゲームフィールド.wasm.br",
+        dataUrl: buildUrl + "/typing.data.br",
+        frameworkUrl: buildUrl + "/typing.framework.js.br",
+        codeUrl: buildUrl + "/typing.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Typingstem",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
+
+      console.log(buildUrl);
+      console.log(loaderUrl);
 
       // By default Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
