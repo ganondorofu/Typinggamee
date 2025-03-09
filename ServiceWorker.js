@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Typingstem-1.0";
 const contentToCache = [
     "https://ganondorofu.github.io/Typinggamee/Build/typing.loader.js",
-    "https://ganondorofu.github.io/Typinggamee/Build/typing.framework.js.gz",
-    "https://ganondorofu.github.io/Typinggamee/Build/typing.data.gz",
-    "https://ganondorofu.github.io/Typinggamee/Build/typing.wasm.gz",
+    "https://ganondorofu.github.io/Typinggamee/Build/typing.framework.js",
+    "https://ganondorofu.github.io/Typinggamee/Build/typing.data",
+    "https://ganondorofu.github.io/Typinggamee/Build/typing.wasm",
     "TemplateData/style.css"
 
 ];
