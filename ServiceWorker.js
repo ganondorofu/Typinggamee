@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Typingstem-1.0";
 const contentToCache = [
-    "https://yonegan.com/unity/Build/typing.loader.js",
-    "https://yonegan.com/unity/Build/typing.framework.js.br",
-    "https://yonegan.com/unity/Build/typing.data.br",
-    "https://yonegan.com/unity/Build/typing.wasm.br",
+    "http://25.39.130.130:3000/typing.loader.js",
+    "http://25.39.130.130:3000/typing.framework.js.br",
+    "http://25.39.130.130:3000/typing.data.br",
+    "http://25.39.130.130:3000/typing.wasm.br",
     "TemplateData/style.css"
 
 ];
